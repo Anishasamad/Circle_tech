@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Brandon-grotesque",sans-serif;
+}
+.menu
+{
+    background-color:#f9f5f5;
+    height: 100px;
+    position: relative;
+}
+.logo img
+{
+    margin-left: 5px;
+    position: absolute;
+    height: 100px;
+}
+.container ul li a 
+{
+    font-family: sans-serif;
+    color:#f96565;;
+    margin-right: 35px;
+    text-decoration: none;
+    
+}
+.container ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 220px;    
+}
+.middle
+{
+margin-top: 32px;
+}
+.aboutus,.journey,.final
+{
+margin-left:150px;
+margin-bottom:100px;
+margin-right:150px;
+margin-top:100px;
+
+}
+.aboutus h1,.journey h1,.final h1{
+    color: #f36e6e;
+    font-size: 35px;
+}
+.aboutus p,.journey p,.final p
+{
+    font-size: 20px;
+font-weight: 100;
+line-height: 1.6;
+}
+.Sheloves
+{
+    background-color: rgb(221, 218, 218);
+    margin-top:0px ;
+    height: 350px;
+    width: 1345px;
+    display: inline-block;
+    padding: 0px;
+}
+.one
+{
+    color: rgb(173, 9, 9);
+    text-align: center;
+    padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 0px;
+padding-right: 0px;
+font-size: 30px;
+letter-spacing: 0.017em;
+font-weight:500;
+margin-right:0px;
+margin-left: 0px;
+}
+.two ,.three ,.four {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom:  50px;
+    margin-left: 30px;
+}
+.Sheloves h1{
+    font-size: 35px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.Sheloves p{
+    font-size: 20px;
+line-height: 1.5;
+letter-spacing: -0.047em;
+font-weight: 600;
+margin-left: 95px;
+    margin-right: 100px;
+}
+
+.mid_img
+{
+margin-left: 455px;
+margin-right: 455px;
+}
+.final ul li
+{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+}
+.last_img
+{
+    margin-left: 120px;
+    margin-left: 150px;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+.footer
+{
+    background-color: black;
+    color: grey;
+    height: 100px;
+    display: flex;
+}
+.footer .footer_p p
+{
+    padding-top: 45px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+

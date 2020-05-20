@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html style="padding: 0%;margin: 0%;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <link rel="stylesheet" href="style_circle.css" type="text/css">
+        <title>task_circle</title>
+    <body style="padding: 0%;margin: 0%;">
+        <nav class="menu">
+            <div class="logo">
+                <img src="data:image/png;base64,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" alt="circle_logo">
+            </div>
+            
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">GLOBAL</a>
+                        <a href="#">PAkistan</a>
+                        <a href="#">ELEVATE</a>
+                        <a href="#">SHE LOVES TECH</a>
+                        <a href="#">TECH KARO</a>
+                        <a href="#">OFFERINGS</a>
+                        <a href="">CLIENTS & PARTNERS</a>
+                        <a href="">ENGAGE</a>
+                    </li>
+                </ul>
+            </div>
+
+        <main>
+            <div class="middle">
+                <img src="images/Screenshot (53).png" width="1345px">
+            </div>
+        </main>
+
+        <section class="aboutus">
+            <h1> ABOUT US</h1><br>
+            <P>She Loves Tech is a global competition which showcases the convergence of the latest trends in technology, entrepreneurship, innovation and the opportunities it creates for women. Today, it is the world’s <b style="font-weight: 800;">largest</b> women and tech start-up competition.<br><br>CIRCLE is She Loves Tech’s official partner for Pakistan, since 2017. Over the years we have received more than 400 applications from women-led start-ups from across Pakistan, with regional rounds in various cities including Karachi, Islamabad, Lahore, Abbottabad and Peshawar.</P>
+        </section>
+            
+        <section class="Sheloves">
+            <div class="one">
+                <h1>SHE LOVES TECH IN NUMBERS</h1>
+            </div>
+
+            <div class="two">
+                <h1>1000+</h1><br>
+                <p>GLOBAL STARTUP'S</p>
+            </div>
+            
+            <div class="three">
+                <h1>400+</h1><br>
+                <p>LOCAL SIGNUP'S</p>
+            </div>
+
+            <div class="four">
+                <h1>500M+</h1><br>
+                <p>GLOBAL MEDIA IMPRESSIONS</p>
+            </div>
+        </section>
+
+        <section class="journey">
+            <div our_journey>
+                <h1>
+                    OUR JOURNEY
+                </h1><br>
+                <p>
+                    After receiving 100+ applications nationwide, CIRCLE’s team of 6 women traveled a distance of 2,025km through Karachi, Lahore, Islamabad, Abbottabad and Peshawar, to inspire women to believe in themselves. The team was joined by a group of like-minded and motivated individuals who were dedicated to the purpose of up-lifting women in Pakistan and helping them break barriers.<br>Our travel through train, Daweoo and bus ensured that we have the opportunity to interact with people from all walks of life, encourage more women to say “yes” to opportunities and gather the support of our male allies.</p>
+            </div>
+        </section>
+        <section>
+            <div class="mid_img">
+                <img src="images/circle1.png">
+            </div>
+        </section>
+        <section>
+            <div class="final">
+                <h1>SHE LOVES TECH PAKISTAN FINAL 2019 </h1><br>
+                <p>At the final round in Pakistan, we witnessed women with innovative ideas on diverse issues ranging from mental health, education, tourism to battling breast cancer pitch their startups at the finals. The Pakistan winner will be travelling to Beijing, China to compete in the Global Round.</p><br>
+                <ul>
+                <li><h2><spam style="color:rgb(173, 9, 9);">WINNER</spam><br><br>DOT MIND UNLOCKED<BR>(YISHEL KHAN)</h2></li>
+                <li><h2><spam style="color:rgb(173, 9, 9);">FIRST RUNNER UP</spam><br><br>PSSEC<BR>(ZARTAJ WASEEM)</h2></li>
+                <li><h2><spam style="color:rgb(173, 9, 9);">SECOND RUNNER UP</spam><br><br>THE MAD HATTERS<BR>(ANEEQA ALI)</h2></li>
+                </ul>
+                </div>
+        </section>
+        <section>
+            <div class="last_img">
+                <img src="images/circle 3.png">
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer_p">
+                <p>© 2020 <b>Circle Women</b> | Design by <b>Anishasamad.com</b></p>
+            </div>
+        </section>
+    </body>
+    </head>
+</html>
